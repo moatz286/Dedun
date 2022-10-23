@@ -1,0 +1,100 @@
+.cover-pic {
+  position: relative;
+  background: url("../images/IMG_20221016_150122.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 99vh;
+}
+.holder {
+  position: absolute;
+  margin-top: 5px;
+  width: auto;
+}
+
+.right {
+  margin-left: 860px;
+}
+.glass {
+  padding: 10px 10px;
+  margin: 10px 8%;
+  backdrop-filter: blur(30px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(220, 223, 228, 0.911);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  height: fit-content;
+}
+.price {
+  color: rgb(126, 117, 117);
+}
+.jumbotron {
+  text-align: center;
+  background: none;
+}
+
+.sectionLight {
+  /* background-color: #e4f6ff; */
+  padding: 2rem;
+}
+
+.sectionDark {
+  background-color: #cccccc;
+  padding: 2rem;
+}
+
+.coolStuffWrapper {
+  margin-top: 20px;
+}
+
+button.coolStuffBtn {
+  background-color: red;
+  color: #ffffff;
+  display: block;
+  margin: auto;
+}
+
+h5.modal-title {
+  margin: auto;
+}
+
+.modalFormWrapper {
+  padding: 2rem;
+}
+
+.imgCenter {
+  display: block;
+  margin: auto;
+}
+
+.btnCenter {
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: -2px;
+  width: 54%;
+}
+
+.footerImg {
+  padding: 15px;
+}
+
+.fa {
+  margin: 10px;
+}
+
+.fa-facebook-square {
+  color: #3b5998;
+}
+
+.fa-google-plus-square {
+  color: #c32f10;
+}
+
+.fa-instagram {
+  color: #ffffff;
+}
+
+.socialWrapper {
+  margin: auto;
+}

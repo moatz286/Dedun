@@ -5104,11 +5104,7 @@ label {
     margin-left: 8px
 }
 
-<<<<<<< HEAD
-.animation-loading {
-=======
 .animsition-loading {
->>>>>>> 9947b00a3868ae5e4b83f7606471c985cfe6a6e7
     border-radius: 50%;
     -webkit-animation: loaderAnimation 1s linear infinite;
     animation: loaderAnimation 1s linear infinite;
@@ -6722,7 +6718,7 @@ a.text-extra-dark:hover {
     animation: hanging 8s infinite both
 }
 
-@-webkit-keyframes hanging {
+@-webkit-keyframes hanging) {
     0% {
         -webkit-transform: translateY(0);
         transform: translateY(0)
@@ -6739,7 +6735,7 @@ a.text-extra-dark:hover {
     }
 }
 
-@keyframes hanging {
+@keyframes hanging) {
     0% {
         -webkit-transform: translateY(0);
         transform: translateY(0)

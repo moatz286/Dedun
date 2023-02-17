@@ -5104,7 +5104,7 @@ label {
     margin-left: 8px
 }
 
-.animsition-loading {
+.animation-loading {
     border-radius: 50%;
     -webkit-animation: loaderAnimation 1s linear infinite;
     animation: loaderAnimation 1s linear infinite;

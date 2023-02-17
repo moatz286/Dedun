@@ -5104,7 +5104,11 @@ label {
     margin-left: 8px
 }
 
+<<<<<<< HEAD
 .animation-loading {
+=======
+.animsition-loading {
+>>>>>>> 9947b00a3868ae5e4b83f7606471c985cfe6a6e7
     border-radius: 50%;
     -webkit-animation: loaderAnimation 1s linear infinite;
     animation: loaderAnimation 1s linear infinite;

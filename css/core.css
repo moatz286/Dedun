@@ -10547,28 +10547,28 @@ a.text-dark:hover {
 }
 
 /*!
- * animation v4.0.2
+ * animsition v4.0.2
  * A simple and easy jQuery plugin for CSS animated page transitions.
- * http://blivesta.github.io/animation
+ * http://blivesta.github.io/animsition
  * License : MIT
  * Author : blivesta (http://blivesta.com/)
  */
-.animation,
-.animation-overlay {
+.animsition,
+.animsition-overlay {
  position:relative;
  opacity:0;
  -webkit-animation-fill-mode:both;
  animation-fill-mode:both
 }
-.animation-overlay-slide {
+.animsition-overlay-slide {
  position:fixed;
  z-index:1;
  width:100%;
  height:100%;
  background-color:#ddd
 }
-.animation-loading,
-.animation-loading:after {
+.animsition-loading,
+.animsition-loading:after {
  width:32px;
  height:32px;
  position:fixed;
@@ -10579,7 +10579,7 @@ a.text-dark:hover {
  border-radius:50%;
  z-index:100
 }
-.animation-loading {
+.animsition-loading {
  background-color:rgba(0,0,0,0);
  border:5px solid rgba(0,0,0,.2);
  border-left-color:#eee;
@@ -10591,10 +10591,10 @@ a.text-dark:hover {
  animation-timing-function:linear;
  -webkit-animation-duration:.8s;
  animation-duration:.8s;
- -webkit-animation-name:animation-loading;
- animation-name:animation-loading
+ -webkit-animation-name:animsition-loading;
+ animation-name:animsition-loading
 }
-@-webkit-keyframes animation-loading {
+@-webkit-keyframes animsition-loading {
  0% {
   -webkit-transform:rotate(0deg);
   transform:rotate(0deg)
@@ -10604,7 +10604,7 @@ a.text-dark:hover {
   transform:rotate(1turn)
  }
 }
-@keyframes animation-loading {
+@keyframes animsition-loading {
  0% {
   -webkit-transform:rotate(0deg);
   transform:rotate(0deg)

@@ -10547,7 +10547,6 @@ a.text-dark:hover {
 }
 
 /*!
-<<<<<<< HEAD
  * animation v4.0.2
  * A simple and easy jQuery plugin for CSS animated page transitions.
  * http://blivesta.github.io/animation
@@ -10556,26 +10555,12 @@ a.text-dark:hover {
  */
 .animation,
 .animation-overlay {
-=======
- * animsition v4.0.2
- * A simple and easy jQuery plugin for CSS animated page transitions.
- * http://blivesta.github.io/animsition
- * License : MIT
- * Author : blivesta (http://blivesta.com/)
- */
-.animsition,
-.animsition-overlay {
->>>>>>> 9947b00a3868ae5e4b83f7606471c985cfe6a6e7
  position:relative;
  opacity:0;
  -webkit-animation-fill-mode:both;
  animation-fill-mode:both
 }
-<<<<<<< HEAD
 .animation-overlay-slide {
-=======
-.animsition-overlay-slide {
->>>>>>> 9947b00a3868ae5e4b83f7606471c985cfe6a6e7
  position:fixed;
  z-index:1;
  width:100%;
